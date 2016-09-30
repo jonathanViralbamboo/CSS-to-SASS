@@ -1,3 +1,142 @@
+* {
+  box-sizing: border-box; }
 
+body {
+  color: #878787;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0; }
+
+h1,
+h2 {
+  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif; }
+
+h2 {
+  font-size: 3.3125em;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; }
+
+h3 {
+  color: #48525c;
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin-bottom: 1.7em; }
+
+img {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 100%; }
+
+ul,
+ol {
+  margin: 30px 0; }
+
+li {
+  margin-bottom: 10px; }
+
+a:link {
+  color: #ffa949;
+  text-decoration: none; }
+
+a:visited {
+  color: #add8e6; }
+
+a:hover {
+  color: rgba(255, 169, 73, 0.4); }
+
+a:active {
+  color: #f08080; }
+
+.main-header {
+  background: linear-gradient(#ffa949, transparent 90%), linear-gradient(0deg, #fff, transparent), #ffa949 url("../img/mountains.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  height: 850px;
+  padding-top: 170px; }
+
+.main-footer {
+  border-bottom: 10px solid #ffa949;
+  padding-bottom: 60px;
+  padding-top: 60px; }
+
+.primary-content,
+.secondary-content {
+  margin: auto;
+  max-width: 960px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 75%; }
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center; }
+
+.primary-content {
+  padding-bottom: 95px;
+  padding-top: 25px; }
+
+.secondary-content {
+  border-bottom: 2px solid #dfe2e6;
+  padding-bottom: 70px;
+  padding-top: 80px; }
+
+.wildlife {
+  background: #434a52 url("../img/bear.jpg") no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+  border-top: 10px solid #ffa949;
+  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
+  color: #fff;
+  margin: 105px 0 60px;
+  padding: 18% 24%;
+  text-align: left; }
+
+.resorts,
+.tips {
+  width: 46.5%; }
+
+.tips {
+  float: left; }
+
+.resorts {
+  float: right; }
+
+@font-face {
+  font-family: 'Abolition Regular';
+  src: url("../fonts/abolition-regular-webfont.eot");
+  src: url("../fonts/abolition-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/abolition-regular-webfont.woff") format("woff"), url("../fonts/abolition-regular-webfont.ttf") format("truetype"); }
+.main-heading {
+  color: white;
+  font-size: 5.625rem;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 12px 0 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  text-transform: uppercase; }
+
+.main-title {
+  color: #fff;
+  font-size: 1.625rem;
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px; }
+
+.intro {
+  color: initial;
+  font-size: 1.25em;
+  line-height: 1.6; }
+
+.callout {
+  border-bottom: 3px solid;
+  display: inline-block;
+  font-size: 1.25em;
+  margin-top: 20px;
+  padding: 0 9px 3px; }
+
+.arrow {
+  margin-top: 150px;
+  width: 50px; }
 
 /*# sourceMappingURL=application.css.map */
