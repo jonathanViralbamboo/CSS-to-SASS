@@ -10,18 +10,18 @@
   @extend %content;
   @extend %t-border;
   @extend %clearfix;
-  border-bottom: 2px solid #dfe2e6;
+  border-bottom: 2px solid $color-border-light;
   padding-bottom: 70px;
   padding-top: 80px;
 }
 
 .wildlife {
-  background: #434a52 url('../img/bear.jpg') no-repeat center;
+  background: $river-bed url('../img/bear.jpg') no-repeat center;
   background-size: cover;
   border-radius: 10px;
-  border-top: 10px solid #ffa949;
-  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, .8);
-  color: #fff;
+  border-top: 10px solid $color-border-dark;
+  box-shadow: inset 0 0 50px 10px rgba($white, .8);
+  color: $white;
   margin: 105px 0 60px;
   padding: 18% 24%;
   text-align: left; }

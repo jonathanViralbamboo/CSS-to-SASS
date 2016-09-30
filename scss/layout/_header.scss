@@ -1,9 +1,9 @@
 .main-header {
   @extend %centered;
-  background: linear-gradient(#ffa949, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-              #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background: linear-gradient($color-prim, transparent 90%),
+              linear-gradient(0deg, $color-body, transparent),
+              $color-prim url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
-  color: #fff;
+  color: $color-body;
   height: 850px;
   padding-top: 170px; }

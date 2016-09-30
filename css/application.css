@@ -59,16 +59,16 @@ a:hover {
   padding-top: 25px; }
 
 .secondary-content {
-  border-bottom: 2px solid #dfe2e6;
+  border-bottom: 2px solid #e0e0e0;
   padding-bottom: 70px;
   padding-top: 80px; }
 
 .wildlife {
-  background: #434a52 url("../img/bear.jpg") no-repeat center;
+  background: #48525c url("../img/bear.jpg") no-repeat center;
   background-size: cover;
   border-radius: 10px;
   border-top: 10px solid #ffa949;
-  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: inset 0 0 50px 10px rgba(255, 255, 255, 0.8);
   color: #fff;
   margin: 105px 0 60px;
   padding: 18% 24%;
@@ -95,11 +95,11 @@ a:hover {
 
 .secondary-content:after {
   clear: both;
-  content: "";
+  content: '';
   display: table; }
 
 .primary-content, .secondary-content {
-  border-top: 2px solid #dfe2e6; }
+  border-top: 2px solid #e0e0e0; }
 
 @font-face {
   font-family: 'Abolition Regular';
