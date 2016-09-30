@@ -1,24 +1,15 @@
-.primary-content,
-.secondary-content {
-  margin: auto;
-  max-width: 960px;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 75%;
-}
-
-.primary-content,
-.main-header,
-.main-footer {
-  text-align: center;
-}
-
 .primary-content {
+  @extend %content;
+  @extend %centered;
+  @extend %t-border;
   padding-bottom: 95px;
   padding-top: 25px;
 }
 
 .secondary-content {
+  @extend %content;
+  @extend %t-border;
+  @extend %clearfix;
   border-bottom: 2px solid #dfe2e6;
   padding-bottom: 70px;
   padding-top: 80px;
