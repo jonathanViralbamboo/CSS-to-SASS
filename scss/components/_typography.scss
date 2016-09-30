@@ -6,24 +6,28 @@
        url('../fonts/abolition-regular-webfont.ttf') format('truetype');
 }
 
-.main-heading {
-  color: rgba(255, 255, 255, 1);
-  font-size: 5.625rem;
-  font-weight: normal;
-  line-height: 1.3;
-  margin: 12px 0 0;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
-  text-transform: uppercase;
+.main {
+  &-heading {
+    color: rgba(255, 255, 255, 1);
+    font-size: 5.625rem;
+    font-weight: normal;
+    line-height: 1.3;
+    margin: 12px 0 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+    text-transform: uppercase;
+  }
+
+  &-title {
+    color: #fff;
+    font-size: 1.625rem;
+    letter-spacing: .065em;
+    font-weight: 200;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+  }
 }
 
-.main-title {
-  color: #fff;
-  font-size: 1.625rem;
-  letter-spacing: .065em;
-  font-weight: 200;
-  border-bottom: 2px solid;
-  padding-bottom: 10px;
-}
+
 
 .intro {
   color: initial;
