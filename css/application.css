@@ -101,17 +101,9 @@ a:hover {
 
 .tips {
   float: left; }
-  @media (max-width: 768px) {
-    .tips {
-      float: none;
-      width: 100%; } }
 
 .resorts {
   float: right; }
-  @media (max-width: 768px) {
-    .resorts {
-      float: none;
-      width: 100%; } }
 
 .main-header, .main-footer, .primary-content {
   text-align: center; }
