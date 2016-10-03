@@ -2,28 +2,38 @@
 
 .main {
   &-heading {
-    color: rgba($white, 1);
-    font-size: 5.625rem;
-    font-weight: normal;
-    line-height: 1.3;
+    @include text (5.625rem, 1.3, normal, $color-text-light);
     margin: 12px 0 0;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+    text-shadow: 0 1px 1px rgba($white, .8);
     text-transform: uppercase;
+
+    @media #{$brk-narrow} {
+      font-size: 5rem;
+      line-height: 1.1;
+    }
+
+    @media #{$brk-wide} {
+      max-height: 380px;
+      padding: 50px 25px 0;
+    }
   }
 
   &-title {
-    color: $white;
-    font-size: 1.625rem;
-    letter-spacing: .065em;
-    font-weight: 200;
+    @include text(1.625rem, $weight: 200, $color: $color-text-light);
     border-bottom: 2px solid;
+    letter-spacing: .065em;
     padding-bottom: 10px;
+
+    @media #{$brk-narrow} {
+      border: 0;
+      font-size: 1.3rem;
+    }
   }
 }
 
-
-
 .intro {
-  color: initial;
-  font-size: 1.25em;
-  line-height: 1.6; }
+  @include text(1.25em, 1.6, $color: initial);
+  @media #{$brk-narrow} {
+    font-size: 1rem;
+  }
+}

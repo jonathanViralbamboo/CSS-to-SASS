@@ -1,3 +1,7 @@
 .arrow {
   margin-top: 150px;
-  width: 50px; }
+  width: 50px;
+  @media #{$brk-narrow} {
+    display: none;
+  }
+}

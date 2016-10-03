@@ -4,6 +4,16 @@
   @extend %t-border;
   padding-bottom: 95px;
   padding-top: 25px;
+
+  @media #{$brk-wide} {
+    width: 90%;
+  }
+
+  @media #{$brk-narrow} {
+    border-top: 0;
+    padding: 20px;
+    width: 100%;
+  }
 }
 
 .secondary-content {
@@ -13,6 +23,16 @@
   border-bottom: 2px solid $color-border-light;
   padding-bottom: 70px;
   padding-top: 80px;
+
+  @media #{$brk-wide} {
+    width: 90%;
+  }
+
+  @media #{$brk-narrow} {
+    border-top: 0;
+    padding: 20px;
+    width: 100%;
+  }
 }
 
 .wildlife {
@@ -24,4 +44,10 @@
   color: $white;
   margin: 105px 0 60px;
   padding: 18% 24%;
-  text-align: left; }
+  text-align: left;
+
+  @media #{$brk-wide} {
+    margin: 50px 0 20px;
+    padding: 10% 12%;
+  }
+}
