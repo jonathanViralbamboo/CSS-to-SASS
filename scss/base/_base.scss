@@ -5,8 +5,8 @@
 }
 
 body {
-  color: $color-text-base;
-  font: 1em / 1.5 $stack-helvetica;
+  @include text(1em, 1.5, $color: $color-text-base);
+  font-family: $stack-helvetica;
   margin: 0;
 }
 
@@ -16,16 +16,12 @@ h2 {
 }
 
 h2 {
-  font-size: 3.3125em;
-  font-weight: normal;
-  line-height: 1.1;
+  @include text(3.3125em, 1.1, normal);
   margin: 0 0 .5em;
 }
 
 h3 {
-  color: $color-text-dark;
-  font-size: 1.25em;
-  line-height: 1.2;
+  @include text(2.15em, 1.2, $color: $color-text-dark);
   margin-bottom: 1.7em;
 }
 
